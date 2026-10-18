@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';import {site,services} from '@/content/site';import {articles} from '@/content/articles';export default function sitemap():MetadataRoute.Sitemap{return ['','/about','/services','/blog','/contact',...services.map(s=>'/services/'+s.slug),...articles.map(a=>'/blog/'+a.slug)].map(path=>({url:site.url+path}))}
