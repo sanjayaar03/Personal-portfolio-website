@@ -13,3 +13,6 @@
 - The integration handles activation-required responses as HTTP 503 and never displays a delivery success for them.
 - Server origin validation, invalid-email field errors, TypeScript, and targeted ESLint checks passed.
 - Actual inbox delivery remains unverified until the owner activates FormSubmit and confirms receipt of a subsequent test.
+
+## Native FormSubmit repair
+The browser now submits directly to FormSubmit after a local server validation precheck. The old outbound Vercel-to-FormSubmit relay was removed. The server returns validated:true, never a delivery success. CAPTCHA remains enabled on FormSubmit, which handles confirmation. Live redeployment and owner confirmation of delivery remain required.
