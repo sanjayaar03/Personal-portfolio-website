@@ -29,3 +29,5 @@ Shared header/footer, CTA, service and article cards, FAQ, portrait, and form co
 
 ### Live delivery troubleshooting
 If the live contact form still calls the old email relay and shows the old delivery error, the latest source has not been redeployed. The corrected form uses the FormSubmit native action. Check the rendered form action in the browser after deployment.
+
+Each validated enquiry receives a unique DS reference in the email subject and body, helping distinguish repeated submissions that otherwise share a Gmail conversation. This improves traceability; it does not establish inbox delivery or change FormSubmit’s acceptance and delivery behavior.
