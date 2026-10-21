@@ -1,1 +1,4 @@
-import Image from 'next/image';export default function BrandLogo({priority=false}:{priority?:boolean}){return <span className="brand-logo"><Image src="/brand/digital-sanjaya-logo-v1.png" alt="Digital Sanjaya" width={2170} height={725} sizes="(max-width:640px) 210px, 270px" priority={priority}/></span>}
+import Image from 'next/image';
+export default function BrandLogo({priority=false}:{priority?:boolean}) {
+  return <span className="brand-logo brand-logo-gradient"><Image src="/brand/digital-sanjaya-gradient.jpg" alt="Digital Sanjaya" width={1600} height={612} sizes="(max-width:640px) 210px, 270px" priority={priority}/></span>;
+}
