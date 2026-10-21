@@ -1,0 +1,1 @@
+Edited with the built-in image generation tool. Prompt: remove the black backdrop, preserve the supplied Digital Sanjaya icon and wording, clean JPEG softness, keep purple-blue gradients, provide a transparent high-resolution asset. Output: 2172 x 724 PNG. This is restored raster artwork, not a vector master.

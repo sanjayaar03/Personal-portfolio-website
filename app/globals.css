@@ -25,3 +25,6 @@ html[data-motion=paused]{scroll-behavior:auto}html[data-motion=paused] *,html[da
 
 /* Current supplied logo uses its original black backing. */
 .brand-logo-gradient{aspect-ratio:3.6;background:#000;border-radius:7px}.brand-logo-gradient img{object-position:center}
+
+/* Light logo panel and transparent, higher-resolution artwork. */
+.brand-logo-gradient{aspect-ratio:3.7;background:#f1f4fc;border:1px solid #d6dfed;padding:5px 10px;border-radius:8px}.brand-logo-gradient img{object-fit:cover;object-position:center}
